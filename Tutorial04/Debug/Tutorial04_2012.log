@@ -1,0 +1,20 @@
+﻿Build started 1/28/2015 6:49:21 PM.
+     1>Project "C:\Users\Kenneth\Downloads\Direct3D Tutorial Win32 Sample\C++\Tutorial04\Tutorial04_2012.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  Tutorial04.cpp
+         Tutorial04.cpp
+     1>c:\users\kenneth\downloads\direct3d tutorial win32 sample\c++\tutorial04\tutorial04.cpp(375): error C2065: 'pVSBlob' : undeclared identifier
+     1>c:\users\kenneth\downloads\direct3d tutorial win32 sample\c++\tutorial04\tutorial04.cpp(375): error C2227: left of '->GetBufferPointer' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\kenneth\downloads\direct3d tutorial win32 sample\c++\tutorial04\tutorial04.cpp(376): error C2065: 'pVSBlob' : undeclared identifier
+     1>c:\users\kenneth\downloads\direct3d tutorial win32 sample\c++\tutorial04\tutorial04.cpp(376): error C2227: left of '->GetBufferSize' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\kenneth\downloads\direct3d tutorial win32 sample\c++\tutorial04\tutorial04.cpp(376): error C2660: 'ID3D11Device::CreateInputLayout' : function does not take 3 arguments
+     1>c:\users\kenneth\downloads\direct3d tutorial win32 sample\c++\tutorial04\tutorial04.cpp(377): error C2065: 'pVSBlob' : undeclared identifier
+     1>c:\users\kenneth\downloads\direct3d tutorial win32 sample\c++\tutorial04\tutorial04.cpp(377): error C2227: left of '->Release' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>Done Building Project "C:\Users\Kenneth\Downloads\Direct3D Tutorial Win32 Sample\C++\Tutorial04\Tutorial04_2012.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.07
